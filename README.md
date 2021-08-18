@@ -33,7 +33,7 @@ php flarum cache:clear
 
 - [Github](https://github.com/yannisme/flarum-oxo-theme)
 - [Packagist](https://packagist.org/packages/yannisme/oxotheme)
-- [Discuss](https://discuss.flarum.org)
+- [Discuss](https://discuss.flarum.org/d/28681-oxo-theme)
   
 
 ![1](https://i.loli.net/2021/08/18/BmI1N47jKcTwSeQ.png)
