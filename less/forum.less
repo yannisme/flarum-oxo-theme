@@ -1,0 +1,36 @@
+.define-colors(true){
+.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child),.IndexPage .DiscussionListItem{background:fade(#0e0e0e,88%)!important}
+.App.BlogOverviewPage,body{background:fade(#000,97%)!important}
+.Post-body{box-shadow:0 2px 6px 0 #000 !important}
+.PostStream-item:not(:last-child){border:unset!important}
+.DiscussionPage .Hero::before, .IndexPage .Hero::before{background:unset!important}
+}
+@media @desktop-up{
+.DiscussionPage .Hero::before,.IndexPage .Hero::before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background:#0e6d4a0a;background-attachment:fixed;filter:blur(4px);z-index:-1}
+.App.BlogOverviewPage,body{background:fade(@config-secondary-color,13%)}
+.BlogSideWidget{box-shadow:0 5px 10px 0 rgba(0,0,0,.1);background:@body-bg}
+header.Hero.DiscussionHero.DiscussionHero--colored{background:fade(@muted-color,50%)!important}
+.Hero{background:fade(@muted-color,10%);border-radius:1rem;margin:0 auto;margin-top:30px;max-width:1100px;box-shadow: 0 3px 4px 0 rgba(0,0,0,.1);}
+.darkenBackground{border-radius:1em}
+flarum.pro{author:yannisme}
+.Post-body{font-size:14px;line-height:1.7;position:relative;overflow:auto;overflow-wrap:break-word;border-radius:5px;margin-top:0;box-shadow:0 5px 10px 0 rgba(0,0,0,.1);background:@body-bg;padding:20px;min-height:80px}
+.IndexPage .DiscussionListItem{box-shadow: 0 3px 4px 0 rgba(0,0,0,.1);border-radius:5px;padding:5px 20px;margin:15px auto;background:#f5f5f5}
+.DiscussionListItem:hover{background:fade(@config-primary-color,5%);transition:.3s}
+.UserPage .DiscussionListItem{margin:10px 0 0 10px;padding:0 15px 0 35px;background:@body-bg;border-bottom:1px solid fade(@config-primary-color,5%);border-radius:5px;min-height:65px}
+.IndexPage .DiscussionListItem-title,.UserPage .DiscussionListItem-title{color: #636363!important;}
+.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child){border-radius:5px;padding:12px 12px;background:fade(@body-bg,60%);box-shadow: 0 3px 4px 0 rgba(0,0,0,.1);}
+.FlarumBlogItem .Post-body{box-shadow:unset!important}
+.sideNav{margin-right:30px}
+.item-discussion-views{margin-right:-71px!important;width:56px}
+.Post-actions{margin-top:5px}
+.SignatureWrapper{padding-top:10px!important;margin-top:15px}
+.Post-footer .item-bestAnswerPost{padding:10px!important}
+.UserCard-Achievement-list{display:none}
+}
+@media (max-width:@screen-tablet-max){
+.DiscussionListItem-content{margin:10px;border-radius:10px}
+.Post-body{box-shadow:unset!important}
+}
+@media @phone{
+.DiscussionListItem-content{margin:1px}
+}

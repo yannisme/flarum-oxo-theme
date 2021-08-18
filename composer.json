@@ -1,0 +1,41 @@
+{
+    "name": "yannisme/oxotheme",
+    "description": "OXO Theme For Flarum",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+	"homepage": "https://flarum.pro",
+	"support": {
+		"issues": "https://github.com/yannisme/flarum-oxo-theme/issues",
+		"source": "https://github.com/yannisme/flarum-oxo-theme",
+		"forum": "https://discuss.flarum.org/"
+	},
+    "require": {
+        "flarum/core": "*"
+    },
+    "authors": [
+        {
+            "name": "yannis",
+            "email": "rd@yannis.cn",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yannisme\\OXOTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "OXO Theme",
+            "category": "theme",
+            "icon": {
+                "name": "fab fa-yandex-international",
+                "backgroundColor": "#2f6cca",
+                "color": "#FFF"
+            }
+        }
+    }
+}
