@@ -10,7 +10,7 @@
 	"support": {
 		"issues": "https://github.com/yannisme/flarum-oxo-theme/issues",
 		"source": "https://github.com/yannisme/flarum-oxo-theme",
-		"forum": "https://discuss.flarum.org/"
+		"forum": "https://discuss.flarum.org/d/28681-oxo-theme"
 	},
     "require": {
         "flarum/core": "*"
