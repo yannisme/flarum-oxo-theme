@@ -1,6 +1,6 @@
 ![GitHub](https://img.shields.io/github/license/yannisme/flarum-oxo-theme?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/yannisme/flarum-oxo-theme?style=flat-square) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/yannisme/flarum-oxo-theme?style=flat-square) ![Packagist Downloads](https://img.shields.io/packagist/dt/yannisme/oxotheme?style=flat-square) [![buy me a coffee](https://img.shields.io/badge/donate-buy%20me%20a%20coffee-yellow?label=Donate&style=flat-square)](https://www.buymeacoffee.com/yannisme)
 
-A Flarum Theme. OXO Theme
+A Flarum Theme. OXO Theme  
 Card-style themes, with a few little mockups,  
 It's been 620 days since the style was published, and finally the theme Ext. was recently reorganized and optimized,  
 The frosted glass effect used on the theme was abandoned because it needed to be matched with a nice Bg~  XP
