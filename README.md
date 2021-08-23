@@ -11,7 +11,7 @@ The frosted glass effect used on the theme was abandoned because it needed to be
 There may be some bugs. If you find it, please remind me, and I will fix it in time!
 
 ### Demo
-[click2see](https://flarum.pro/)
+[click2see](https://discuss.yannisme.com/)
 
 ### Installation
 **Default color：**`#276bb0`,`#6699cc`
