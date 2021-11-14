@@ -1,25 +1,56 @@
 .define-colors(true){
-.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child),.IndexPage .DiscussionListItem{background:fade(#0e0e0e,88%)!important}
-.App.BlogOverviewPage,body{background:fade(#000,97%)!important}
-.Post-body{box-shadow:0 2px 6px 0 #000 !important}
-.PostStream-item:not(:last-child){border:unset!important}
-.DiscussionPage .Hero::before, .IndexPage .Hero::before{background:unset!important}
-}
+.hljs-attr,.hljs-attribute,.hljs-literal,.hljs-number,.hljs-operator,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-variable{color:#5082bd!important}
+.hljs-meta,.hljs-meta .hljs-keyword,.hljs-meta .hljs-string{color:#ff93b3!important}
+.hljs-addition{color:#50a965!important;background-color:#14191f!important}
+.hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable.language_{color:#ce606a!important}
+.hljs-built_in,.hljs-symbol{color:#b97e55!important}
+.hljs-meta .hljs-string,.hljs-regexp,.hljs-string{color:#beda78!important}
+.hljs-subst{color:#a77fad!important}
+.hljs-name,.hljs-quote,.hljs-selector-pseudo,.hljs-selector-tag{color:#38984f!important}
 @media @desktop-up{
+body{background:fade(#191d21,100%)!important}
+.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child),.IndexPage .DiscussionListItem,.Post-body,.UserPage .DiscussionListItem,header.Hero.DiscussionHero,header.Hero.WelcomeHero,li.item-nav{background:fade(#181c1e,100%)!important;border-bottom:2px solid fade(#000,13%)!important}
+.App.BlogOverviewPage{background:fade(#000,97%)!important}
+.Post-body{box-shadow:rgba(0,0,0,.1) 0 1px 3px 0,rgba(0,0,0,.06) 0 1px 2px 0}
+.Avatar{border:unset!important}
+.IndexPage .DiscussionListItem-title,.UserPage .DiscussionListItem-title{color:#988f81!important}
+.PostStream-item:not(:last-child){border:unset!important}
+.DiscussionPage .Hero::before,.IndexPage .Hero::before{background:unset!important}}
+@media (max-width:@screen-desktop){
+header.Hero.DiscussionHero,header.Hero.WelcomeHero{background:fade(#181c1e,100%)!important;border-bottom:unset!important}
+.Hero h2{font-size:18px!important;font-weight:600!important}
+.DiscussionListItem-title{font-size:14px!important;font-weight:600!important}
+.DiscussionHero--colored,.DiscussionHero--colored a{color:#959595!important}
+}
+}
+.Avatar{border:2px solid hsla(0,0%,90%,.5);border-radius:200px}
+.DiscussionListItem-author .Avatar{--size:55px}
+.DiscussionListItem-main{padding:12px 20px;padding-left:15px}
+.DiscussionListItem-badges{margin-left:-42px;width:48px}
+header.Hero.DiscussionHero,header.Hero.WelcomeHero{background:#ffffffa8;border-radius:15px;border-bottom:2px solid fade(#e5e5e5,70%)}
+.DiscussionPage-list a.DiscussionListItem-author{display:none}
+.DiscussionPage-list .DiscussionListItem-content{padding-left:40px}
+@media @desktop-up{
+body{background:fade(@config-secondary-color,5%)}
+.Hero h2{font-size:25px;font-weight:600}
 .Post-actions{z-index:99}
+.IndexPage .DiscussionListItem{padding:10px 25px}
+.DiscussionListItem-author .Avatar{--size:55px}
+span.Avatar{display:flex;overflow:hidden;font-size:55px;justify-content:center;align-items:center}
 .DiscussionPage .Hero::before,.IndexPage .Hero::before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background:#0e6d4a0a;background-attachment:fixed;filter:blur(4px);z-index:-1}
-.App.BlogOverviewPage,body{background:fade(@config-secondary-color,13%)}
+.App.BlogOverviewPage{background:fade(@config-secondary-color,10%)}
 .BlogSideWidget{box-shadow:0 5px 10px 0 rgba(0,0,0,.1);background:@body-bg}
 header.Hero.DiscussionHero.DiscussionHero--colored{background:fade(@muted-color,50%)!important}
-.Hero{background:fade(@muted-color,10%);border-radius:1rem;margin:0 auto;margin-top:30px;max-width:1100px;box-shadow: 0 3px 4px 0 rgba(0,0,0,.1);}
+.Hero{border-radius:15px;margin:0 auto;margin-top:30px;max-width:1100px}
 .darkenBackground{border-radius:1em}
-flarum.pro{author:yannisme}
-.Post-body{font-size:14px;line-height:1.7;position:relative;overflow:auto;overflow-wrap:break-word;border-radius:5px;margin-top:0;box-shadow:0 5px 10px 0 rgba(0,0,0,.1);background:@body-bg;padding:20px;min-height:80px}
-.IndexPage .DiscussionListItem{box-shadow: 0 3px 4px 0 rgba(0,0,0,.1);border-radius:5px;padding:5px 20px;margin:15px auto;background:#f5f5f5}
+flarum.oxo.v2-theme{author:yannisme}
+.Post-body{font-size:14px;line-height:1.7;position:relative;overflow:auto;overflow-wrap:break-word;border-radius:5px;margin-top:0;background:@body-bg;padding:20px;min-height:80px}
+.IndexPage .DiscussionListItem,li.item-nav{padding:10px 25px;background:#ffffffa8;border-radius:15px;margin:15px auto;border-bottom:2px solid fade(#e5e5e5,70%)}
+.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child){padding:15px;background:#ffffffa8;border-radius:15px;margin:15px auto;border-bottom:2px solid fade(#e5e5e5,70%)}
+.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child),.Hero,.IndexPage .DiscussionListItem,.Post-body,li.item-nav{box-shadow:rgba(0,0,0,.1) 0 1px 3px 0,rgba(0,0,0,.06) 0 1px 2px 0}
 .DiscussionListItem:hover{background:fade(@config-primary-color,5%);transition:.3s}
 .UserPage .DiscussionListItem{margin:10px 0 0 10px;padding:0 15px 0 35px;background:@body-bg;border-bottom:1px solid fade(@config-primary-color,5%);border-radius:5px;min-height:65px}
-.IndexPage .DiscussionListItem-title,.UserPage .DiscussionListItem-title{color: #636363!important;}
-.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child){border-radius:5px;padding:12px 12px;background:fade(@body-bg,60%);box-shadow: 0 3px 4px 0 rgba(0,0,0,.1);}
+.IndexPage .DiscussionListItem-title,.UserPage .DiscussionListItem-title{color:#636363!important}
 .FlarumBlogItem .Post-body{box-shadow:unset!important}
 .sideNav{margin-right:30px}
 .item-discussion-views{margin-right:-28px!important;width:56px}
@@ -27,11 +58,15 @@ flarum.pro{author:yannisme}
 .SignatureWrapper{padding-top:10px!important;margin-top:15px}
 .Post-footer .item-bestAnswerPost{padding:10px!important}
 .UserCard-Achievement-list{display:none}
+.DiscussionListItem-title{font-size:16px;font-weight:600}
 }
 @media (max-width:@screen-tablet-max){
 .DiscussionListItem-content{margin:10px;border-radius:10px}
 .Post-body{box-shadow:unset!important}
 }
+@media (min-width:@screen-desktop){.sideNav>ul{border-radius:15px}
+}
 @media @phone{
 .DiscussionListItem-content{margin:1px}
+.DiscussionListItem-author .Avatar{--size:45px}
 }
