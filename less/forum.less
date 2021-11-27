@@ -23,10 +23,13 @@ header.Hero.DiscussionHero,header.Hero.WelcomeHero{background:fade(#181c1e,100%)
 .DiscussionHero--colored,.DiscussionHero--colored a{color:#959595!important}
 }
 }
+.Button-label span.username{overflow:hidden;max-width:100px;display:inline-flex}
+.App--discussion.scrolled .DiscussionList .DiscussionListItem-badges{margin-top:20px}
 .Avatar{border:2px solid hsla(0,0%,90%,.5);border-radius:200px}
+.DiscussionListItem-author{margin-top:4px}
 .DiscussionListItem-author .Avatar{--size:55px}
 .DiscussionListItem-main{padding:12px 20px;padding-left:15px}
-.DiscussionListItem-badges{margin-left:-42px;width:48px}
+.DiscussionListItem-badges{margin-top:0;margin-left:-42px;width:48px}
 header.Hero.DiscussionHero,header.Hero.WelcomeHero{background:#ffffffa8;border-radius:15px;border-bottom:2px solid fade(#e5e5e5,70%)}
 .DiscussionPage-list a.DiscussionListItem-author{display:none}
 .DiscussionPage-list .DiscussionListItem-content{padding-left:40px}
@@ -49,7 +52,7 @@ flarum.oxo.v2-theme{author:yannisme}
 .AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child){padding:15px;background:#ffffffa8;border-radius:15px;margin:15px auto;border-bottom:2px solid fade(#e5e5e5,70%)}
 .AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child),.Hero,.IndexPage .DiscussionListItem,.Post-body,li.item-nav{box-shadow:rgba(0,0,0,.1) 0 1px 3px 0,rgba(0,0,0,.06) 0 1px 2px 0}
 .DiscussionListItem:hover{background:fade(@config-primary-color,5%);transition:.3s}
-.UserPage .DiscussionListItem{margin:10px 0 0 10px;padding:0 15px 0 35px;background:@body-bg;border-bottom:1px solid fade(@config-primary-color,5%);border-radius:5px;min-height:65px}
+.UserPage .DiscussionListItem{box-shadow:rgba(0,0,0,.05) 0 1px 2px 0,rgba(0,0,0,.02) 0 0 20px 0;margin:10px 0 0 10px;padding:3px 15px 3px 35px;background:@body-bg;border-bottom:1px solid fade(@config-primary-color,5%);border-radius:5px;min-height:65px}
 .IndexPage .DiscussionListItem-title,.UserPage .DiscussionListItem-title{color:#636363!important}
 .FlarumBlogItem .Post-body{box-shadow:unset!important}
 .sideNav{margin-right:30px}
