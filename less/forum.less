@@ -34,7 +34,6 @@ header.Hero.DiscussionHero,header.Hero.WelcomeHero{background:#ffffffa8;border-r
 .DiscussionPage-list .DiscussionListItem-content{padding-left:40px}
 @media @desktop-up{
 body{background:fade(@config-secondary-color,5%)}
-.Button-label span.username{overflow:hidden;max-width:100px;display:inline-flex}
 #app.App.affix.BlogItemPage .Button,.BlogSideWidget,.BlogSideWidget .sideNav li.active,.BlogSideWidget .sideNav li:hover,.BlogSideWidget-item:hover{border-radius:13px!important}
 #app.App.affix.BlogItemPage span.Avatar{display:inline-flex}
 .FlarumBlogOverview .BlogScrubber .BlogList-item-default .BlogList-item-photo{border-radius:13px 0 0 13px}
@@ -47,7 +46,7 @@ body{background:fade(@config-secondary-color,5%)}
 .Post-actions{z-index:99}
 .IndexPage .DiscussionListItem{padding:10px 25px}
 .DiscussionListItem-author .Avatar{--size:55px}
-span.Avatar{display:flex;overflow:hidden;font-size:55px;justify-content:center;align-items:center}
+span.Avatar{display:inline-flex;overflow:hidden;font-size:55px;justify-content:center;align-items:center}
 .DiscussionPage .Hero::before,.IndexPage .Hero::before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background:#0e6d4a0a;background-attachment:fixed;filter:blur(4px);z-index:-1}
 .App.BlogOverviewPage{background:fade(@config-secondary-color,10%)}
 .BlogSideWidget{box-shadow:0 5px 10px 0 rgba(0,0,0,.1);background:@body-bg}
