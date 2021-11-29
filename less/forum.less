@@ -23,7 +23,6 @@ header.Hero.DiscussionHero,header.Hero.WelcomeHero{background:fade(#181c1e,100%)
 .DiscussionHero--colored,.DiscussionHero--colored a{color:#959595!important}}
 @media @phone{.item-discussion-views{background:#1b2128!important}}
 }
-.App--discussion.scrolled .DiscussionList .DiscussionListItem-badges{margin-top:20px}
 .Avatar{border:2px solid hsla(0,0%,90%,.5);border-radius:200px}
 .DiscussionListItem-author{margin-top:4px}
 .DiscussionListItem-author .Avatar{--size:55px}
@@ -34,6 +33,7 @@ header.Hero.DiscussionHero,header.Hero.WelcomeHero{background:#ffffffa8;border-r
 .DiscussionPage-list .DiscussionListItem-content{padding-left:40px}
 @media @desktop-up{
 body{background:fade(@config-secondary-color,5%)}
+.hasPane.App--discussion .DiscussionList .DiscussionListItem-badges{margin-top:20px}
 #app.App.affix.BlogItemPage .Button,.BlogSideWidget,.BlogSideWidget .sideNav li.active,.BlogSideWidget .sideNav li:hover,.BlogSideWidget-item:hover{border-radius:13px!important}
 #app.App.affix.BlogItemPage span.Avatar{display:inline-flex}
 .FlarumBlogOverview .BlogScrubber .BlogList-item-default .BlogList-item-photo{border-radius:13px 0 0 13px}
@@ -56,15 +56,20 @@ header.Hero.DiscussionHero.DiscussionHero--colored{background:fade(@muted-color,
 flarum.oxo.v2-theme{author:yannisme}
 .Post-body{font-size:14px;line-height:1.7;position:relative;overflow:auto;overflow-wrap:break-word;border-radius:5px;margin-top:0;background:@body-bg;padding:20px;min-height:80px}
 .IndexPage .DiscussionListItem,li.item-nav{padding:10px 25px;background:#ffffffa8;border-radius:15px;margin:15px auto;border-bottom:2px solid fade(#e5e5e5,70%)}
-.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child){padding:15px;background:#ffffffa8;border-radius:15px;margin:15px auto;border-bottom:2px solid fade(#e5e5e5,70%)}
-.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child),.Hero,.IndexPage .DiscussionListItem,.Post-body,li.item-nav{box-shadow:rgba(0,0,0,.1) 0 1px 3px 0,rgba(0,0,0,.06) 0 1px 2px 0}
+.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget{padding:15px;background:#ffffffa8;border-radius:15px;margin:15px auto;border-bottom:2px solid fade(#e5e5e5,70%)}
+.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget,.Hero,.IndexPage .DiscussionListItem,.Post-body,li.item-nav{box-shadow:rgba(0,0,0,.1) 0 1px 3px 0,rgba(0,0,0,.06) 0 1px 2px 0}
 .Notification{align-items:center}
-.AfruxWidgets-Widget-title{margin-bottom:8px!important;padding:8px 0 0 10px!important}
-.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child){padding:0!important}
+.Afrux-NewsWidget{border:0!important;border-radius:0!important;box-shadow:unset}
+.AfruxWidgets-Widget-title{font-weight:600;margin-bottom:8px!important;padding:8px 0 0 10px!important}
+.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget{padding:0!important}
 .AfruxWidgets-sideNavAlt{padding-top:15px!important}
+.AfruxWidgets-Widget-content:nth-of-type(2){border-radius:0 0 12px 12px!important}
 .DiscussionListItem:hover{background:fade(@config-primary-color,5%);transition:.3s}
 .UserPage .DiscussionListItem{box-shadow:rgba(0,0,0,.05) 0 1px 2px 0,rgba(0,0,0,.02) 0 0 20px 0;margin:10px 0 0 10px;padding:3px 15px 3px 35px;background:@body-bg;border-bottom:1px solid fade(@config-primary-color,5%);border-radius:5px;min-height:65px}
 .IndexPage .DiscussionListItem-title,.UserPage .DiscussionListItem-title{color:#636363!important}
+.IndexPage .DiscussionListItem-info>.item-tags,.UserPage .DiscussionListItem-info>.item-tags{position:initial!important;-webkit-mask-image:unset!important}
+li.item-terminalPost{padding-left:5px}
+.IndexPage .DiscussionListItem-title,.UserPage .DiscussionListItem-title{margin-right:auto!important}
 .FlarumBlogItem .Post-body{box-shadow:unset!important}
 .sideNav{margin-right:30px}
 .item-discussion-views{margin-right:-28px!important;width:56px}
