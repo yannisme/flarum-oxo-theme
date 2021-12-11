@@ -7,7 +7,7 @@ Card-style themes, with a few little mockups.
 There may be some bugs. If you find it, please remind me, and I will fix it in time!
 
 ### Demo
-[click2see](https://discuss.yannisme.com/)
+[click2see](https://yannisme.com/)
 
 ### Installation
 **Default color：**`#276bb0`,`#6699cc`
