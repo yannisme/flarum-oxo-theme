@@ -32,7 +32,8 @@ header.Hero.DiscussionHero,header.Hero.WelcomeHero{background:fade(#181c1e,100%)
 header.Hero.DiscussionHero,header.Hero.WelcomeHero{background:#ffffffa8;border-radius:15px;border-bottom:2px solid fade(#e5e5e5,70%)}
 .DiscussionPage-list a.DiscussionListItem-author{display:none}
 .DiscussionPage-list .DiscussionListItem-content{padding-left:40px}
-@media @desktop-up{
+.DiscussionHero--colored,.DiscussionHero--colored a{color:@hero-color!important}
+@media @tablet-up{
 body{background:fade(@config-secondary-color,5%)}
 .hasPane.App--discussion .DiscussionList .DiscussionListItem-badges{margin-top:20px}
 #app.App.affix.BlogItemPage .Button,.BlogSideWidget,.BlogSideWidget .sideNav li.active,.BlogSideWidget .sideNav li:hover,.BlogSideWidget-item:hover{border-radius:13px!important}
@@ -51,7 +52,6 @@ span.Avatar{display:inline-flex;overflow:hidden;font-size:55px;justify-content:c
 .DiscussionPage .Hero::before,.IndexPage .Hero::before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background:#0e6d4a0a;background-attachment:fixed;filter:blur(4px);z-index:-1}
 .App.BlogOverviewPage{background:fade(@config-secondary-color,10%)}
 .BlogSideWidget{box-shadow:0 5px 10px 0 rgba(0,0,0,.1);background:@body-bg}
-.DiscussionHero--colored,.DiscussionHero--colored a{color:@hero-color!important}
 .Hero{border-radius:15px;margin:0 auto;margin-top:30px;max-width:1100px}
 .darkenBackground{border-radius:1em}
 flarum.oxo.v2-theme{author:yannisme}
