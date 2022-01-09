@@ -7,9 +7,9 @@
 .hljs-meta .hljs-string,.hljs-regexp,.hljs-string{color:#beda78!important}
 .hljs-subst{color:#a77fad!important}
 .hljs-name,.hljs-quote,.hljs-selector-pseudo,.hljs-selector-tag{color:#38984f!important}
-@media @desktop-up{
+@media @tablet-up{
 body{background:fade(#191d21,100%)!important}
-.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child),.IndexPage .DiscussionListItem,.Post-body,.UserPage .DiscussionListItem,header.Hero.DiscussionHero,header.Hero.WelcomeHero,li.item-nav{background:fade(#181c1e,100%)!important;border-bottom:2px solid fade(#000,13%)!important}
+.backgrwb,.backgrwbguest,.AfruxWidgets-Widget.Afrux-ForumStatsWidgetWidget,.AfruxWidgets-Widget:not(:last-child),.IndexPage .DiscussionListItem,.Post-body,.UserPage .DiscussionListItem,header.Hero.DiscussionHero,header.Hero.WelcomeHero,li.item-nav,.AfruxWidgets-Widget{background:fade(#181c1e,100%)!important;border-bottom:2px solid fade(#000,13%)!important}
 .App.BlogOverviewPage{background:fade(#000,97%)!important}
 .Post-body{box-shadow:rgba(0,0,0,.1) 0 1px 3px 0,rgba(0,0,0,.06) 0 1px 2px 0}
 .Avatar{border:unset!important}
@@ -33,8 +33,13 @@ header.Hero.DiscussionHero,header.Hero.WelcomeHero{background:#ffffffa8;border-r
 .DiscussionPage-list a.DiscussionListItem-author{display:none}
 .DiscussionPage-list .DiscussionListItem-content{padding-left:40px}
 .DiscussionHero--colored,.DiscussionHero--colored a{color:@hero-color!important}
+.FlarumBlogItem .FlarumBlog-Article .FlarumBlog-Article-Container .FlarumBlog-Article-Image{border-radius: 13px 13px 0 0;}
+.avatarwb .Avatar{box-shadow:rgba(0,0,0,.35) 0 1px 5px 0!important}
+.AfruxWidgets-Widget-content{width:auto!important;margin:0 auto!important}
+span.TagsLabel.mytagLabel{display:none}
 @media @tablet-up{
 body{background:fade(@config-secondary-color,5%)}
+.backgrwb,.backgrwbguest{background:@body-bg!important}
 .hasPane.App--discussion .DiscussionList .DiscussionListItem-badges{margin-top:20px}
 #app.App.affix.BlogItemPage .Button,.BlogSideWidget,.BlogSideWidget .sideNav li.active,.BlogSideWidget .sideNav li:hover,.BlogSideWidget-item:hover{border-radius:13px!important}
 #app.App.affix.BlogItemPage span.Avatar{display:inline-flex}
@@ -102,11 +107,12 @@ ul.TagTiles{display:flex;flex-direction:row;justify-content:center;align-items:c
 header.Hero.DiscussionHero,header.Hero.WelcomeHero{border-radius:0 0 4em 4em!important;background:@body-bg!important}
 .Hero,.darkenBackground {border-radius: 0 0 2em 2em!important;}
 .Hero h2{font-size:18px!important;font-weight:600!important}
-.PostUser-badges{position:relative;top:-4px}
+.PostUser-badges{float: right;
+    position: initial;}
 .DiscussionPage-nav{border-bottom:0}
-.AfruxWidgets-sideNavAlt{display:none}
 .TagTiles>li{margin:15px 10px;box-shadow:rgba(0,0,0,.1) 0 1px 3px 0,rgba(0,0,0,.06) 0 1px 2px 0!important;border-radius:15px}
-.FlarumBlogOverview .BlogScrubber .BlogList-item-default .BlogList-item-photo{border-radius:13px 0 0 13px}
+.FlarumBlogOverview .BlogScrubber .BlogList-item-default .BlogList-item-photo{border-radius:13px 13px 0 0}
+.FlarumBlogOverview .BlogScrubber .BlogList-item-content h4{overflow-wrap:break-word}
 .FlarumBlog-Article-Author,.FlarumBlogItem .FlarumBlog-Article .FlarumBlog-Article-Container>*,.FlarumBlogOverview .BlogScrubber .BlogList-item{border-radius:13px!important;box-shadow:rgba(0,0,0,.1) 0 1px 3px 0,rgba(0,0,0,.06) 0 1px 2px 0!important}
 .FlarumBlog-Article-Author-background{border-top-left-radius:13px;border-top-right-radius:13px}
 .BlogSideWidget{margin-bottom:20px;box-shadow:rgba(0,0,0,.1) 0 1px 3px 0,rgba(0,0,0,.06) 0 1px 2px 0!important}
