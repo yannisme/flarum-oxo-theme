@@ -2,7 +2,7 @@
 
 A Flarum Theme. OXO Theme  
 Card-style themes, with a few little mockups.
-- Support `FoF Night Mode`、`Blog`
+- Support `FoF Night Mode`、`Blog`、`Hot Cards`、`ProfileCover`、`Welcomebox`、`Popular Discussion Cards`、`last-registered-users-widget`...
 
 There may be some bugs. If you find it, please remind me, and I will fix it in time!
 
