@@ -15,7 +15,7 @@ There may be some bugs. If you find it, please remind me, and I will fix it in t
 
 Install with composer:
 ```
-composer require yannisme/oxotheme
+composer require yannisme/oxotheme:2.x-dev
 ```
 
 ### Updating
