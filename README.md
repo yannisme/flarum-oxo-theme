@@ -16,7 +16,7 @@ There may be some bugs. If you find it, please remind me, and I will fix it in t
 Install with composer:  
 Flarum 1.x use:
 ```
-composer require yannisme/oxotheme:
+composer require yannisme/oxotheme:*
 ```
 Flarum 2.x use:
 ```
