@@ -13,9 +13,14 @@ There may be some bugs. If you find it, please remind me, and I will fix it in t
 **Default color：**`#276bb0`,`#6699cc`
 *U can change colors freely
 
-Install with composer:
+Install with composer:  
+Flarum 1.x use:
 ```
-composer require yannisme/oxotheme
+composer require yannisme/oxotheme:
+```
+Flarum 2.x use:
+```
+composer require yannisme/oxotheme:2.x-dev
 ```
 
 ### Updating
